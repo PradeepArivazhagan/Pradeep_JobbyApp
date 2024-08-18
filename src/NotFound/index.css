@@ -1,0 +1,17 @@
+.notFoundMainContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #272727;
+}
+
+.notFoundText {
+  font-family: Roboto;
+  color: #f8fafc;
+}
+.notFoundPara {
+  font-family: Roboto;
+  color: #cbd5e1;
+}

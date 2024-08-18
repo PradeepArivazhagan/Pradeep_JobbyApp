@@ -1,0 +1,117 @@
+.linkStyle {
+  text-decoration: none;
+}
+
+.jobCardContainer {
+  background-color: #272727;
+  margin: 20px 0px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.jobCardLogo {
+  width: 50px;
+  height: 50px;
+}
+
+.jobTitleContainer {
+  margin-left: 15px;
+}
+
+.jobTitle {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #f1f5f9;
+  margin: 0px;
+}
+
+.ratingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5px;
+  margin-top: 10px;
+}
+
+.starIcon {
+  color: #fbbf24;
+}
+
+.rating {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 500;
+  color: #f1f5f9;
+  margin: 0px;
+}
+
+.locationAndSalaryContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.locationAndTypeContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.iconAndTextContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+  column-gap: 8px;
+}
+
+.iconStyle {
+  color: #f1f5f9;
+  height: 20px;
+  width: 20px;
+}
+
+.typeText {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #f1f5f9;
+  margin: 0px;
+}
+
+.salaryText {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #f1f5f9;
+  margin: 0px;
+  font-weight: 500;
+}
+
+.descriptionText {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #f1f5f9;
+  margin: 15px 0px;
+  font-weight: 500;
+}
+
+.jonContent {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #cbd5e1;
+  margin: 0px;
+  line-height: 1.5;
+}
+
+.hrStyle{
+  color: #f1f5f9;
+}

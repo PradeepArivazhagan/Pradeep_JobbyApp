@@ -1,0 +1,161 @@
+.jobsMainContainer {
+  background-color: #121212;
+  padding: 20px 75px;
+  display: flex;
+  flex-direction: row;
+}
+
+.jobsLeftContainer {
+  width: 25%;
+  margin-right: 30px;
+}
+
+.profileContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  padding: 30px 20px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+.loaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.failureViewStyle {
+  width: 80%;
+}
+
+.retryBtnStyle {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 10px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #4f46e5;
+  border-radius: 3px;
+}
+
+.profileName {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #6366f1;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+.profileBio {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #64748b;
+  margin: 10px 0px;
+}
+
+.filterTitle {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #ffffff;
+  margin: 30px 0px 20px 0px;
+}
+
+.employementTypeList {
+  list-style: none;
+  padding: 0px;
+  margin: 10px;
+}
+
+.emloyementItemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.checkBoxStyle {
+  height: 15px;
+  width: 15px;
+  margin: 0px;
+}
+
+.labelStyle {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #f1f5f9;
+  margin-left: 15px;
+}
+
+.searchInputStyle {
+  outline: none;
+  padding: 8px 15px;
+  background-color: transparent;
+  border: none;
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 13px;
+  width: 100%;
+}
+.jobsRightContainer {
+  width: 75%;
+}
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #7e858e;
+  border-radius: 3px;
+  width: 40%;
+}
+
+.searchButton {
+  padding: 9px 20px;
+  background-color: #272727;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+}
+
+.searchIcon {
+  color: #f8fafc;
+}
+
+.jobsList {
+  list-style: none;
+  padding: 0px;
+}
+
+.jobFailureContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.noJobsStyle {
+  width: 50%;
+}
+
+.failureText {
+  font-family: Roboto;
+  color: #f1f5f9;
+}
+
+.failurePara {
+  font-family: Roboto;
+  color: #cbd5e1;
+}

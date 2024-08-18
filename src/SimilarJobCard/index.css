@@ -1,0 +1,69 @@
+.SimilarJobCardContainer {
+  background-color: #272727;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.jobCardLogo {
+  width: 50px;
+  height: 50px;
+}
+
+.jobTitleContainer {
+  margin-left: 15px;
+}
+
+.jobTitle {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #f1f5f9;
+  margin: 0px;
+}
+
+.ratingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5px;
+  margin-top: 10px;
+}
+
+.starIcon {
+  color: #fbbf24;
+}
+
+.rating {
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 500;
+  color: #f1f5f9;
+  margin: 0px;
+}
+.descriptionText {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #f1f5f9;
+  margin: 15px 0px;
+  font-weight: 500;
+}
+
+.jobContentDetails {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #cbd5e1;
+  margin-top: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+
+.descritionContainer{
+  margin: 30px 0px;
+}
